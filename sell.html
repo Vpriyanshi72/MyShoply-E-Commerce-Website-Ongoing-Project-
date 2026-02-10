@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Product</title>
+    <link rel="stylesheet" href="sell.css">
+</head>
+
+<body>
+
+    <div class="form-box">
+        <h2>Sell Your Product</h2>
+
+        <form action="sell.php" method="POST" enctype="multipart/form-data">
+
+            <input type="text" name="name" placeholder="Product Name" required>
+
+            <input type="number" name="price" placeholder="Price" required>
+
+            <input type="text" name="category" placeholder="Category" required>
+
+            <input type="text" name="seller" placeholder="Seller Name" required>
+
+            <input type="file" name="image" required>
+
+            <button type="submit">Add Product</button>
+        </form>
+
+        <br>
+        <a href="sell1.php">View Products</a>
+    </div>
+
+</body>
+
+</html>
